@@ -47,21 +47,24 @@ SOFTWARE.
 
 ## Demos
 
-- TBD
+- ./Results
 
-## Set of Assumptions 
+## Dataset and Assumptions 
 
-- TBD
+- GoPro Hero 3 camera used with fisheye lens distortion corrected
+- 6 stereo images of Levine Hall at UPenn
+- SIFT keypoints and descriptors used
 
 ## Known Issues/Bugs 
 
+- High Triangulation errors
 - High BA errors
-- 
 
 ## Dependencies
 
-- Install OpenCV 3.4.4 or higher and other dependencies.
-
+- cv2 4 or higher
+- scipy latest version
+- numpy
 
 To Run tests 
 ```
@@ -70,4 +73,4 @@ python test_load_dataset.py
 
 ## Links
 
-Final Output and Overview --> [Link]
+Final Output and Overview --> ./Results
